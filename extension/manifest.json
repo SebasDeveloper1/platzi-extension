@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "default_locale": "es",
+  "permissions": ["activeTab", "bookmarks", "storage"],
+  "name": "PlatziPlus",
+  "version": "1.0.0",
+  "description": "Un conjunto de mejoras para platzi.com",
+  "author": "SebasDeveloper <sebaspedroza.developer@gmail.com> (https://sebasdeveloper.netlify.app/)",
+  "options_page": "options/index.html",
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://platzi.com/*"],
+      "js": ["util/content-script.js"],
+      "css": ["styles/global.css"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": [
+        "https://platzi.com/clases/*",
+        "https://platzi.com/comentario/*"
+      ],
+      "js": ["features/saveComments/content-script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/bookmark-plus.svg",
+        "features/saveComments/*",
+        "styles/global.css"
+      ],
+      "matches": ["https://platzi.com/*"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

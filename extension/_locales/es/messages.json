@@ -1,0 +1,50 @@
+{
+  "extensionTitle": {
+    "message": "PlatziPlus",
+    "description": ""
+  },
+  "extensionSubtitle": {
+    "message": "Extensión",
+    "description": ""
+  },
+  "extensionDesc": {
+    "message": "Amplía tus posibilidades en Platzi con las características mejoradas que nuestra extensión trae para ti.",
+    "description": ""
+  },
+  "optionSaveCommentLabel": {
+    "message": "Guardar comentarios",
+    "description": ""
+  },
+  "saveCommentButton": {
+    "message": "Guardar comentario",
+    "description": ""
+  },
+  "notificationModalTitle": {
+    "message": "Commentario Guardado",
+    "description": ""
+  },
+  "notificationModalSub": {
+    "message": "/Marcadores/PlatziComments/...",
+    "description": ""
+  },
+  "modalHeaderTitle": {
+    "message": "Guardar Comentario",
+    "description": ""
+  },
+  "formInputTitle": {
+    "message": "Título del comentario",
+    "description": ""
+  },
+  "formInputTitleError": {
+    "message": "El título del comentario no puede estar vacío",
+    "description": ""
+  },
+  "saveCommentModalButtonDiscard": {
+    "message": "Descartar",
+    "description": ""
+  },
+  "saveCommentModalButtonSave": {
+    "message": "Guardar",
+    "description": ""
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+    <title>__MSM_TITLE__</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_container">
+        <h1 class="header_title" id="popupTitle">__MSM_TITLE__</h1>
+        <span class="header_subtitle" id="popupSubtitle">__MSG_SUBTITLE__</span>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main_container">
+        <p class="main_desc" id="extensionDesc">__MSG_EXTENSION_DESC__</p>
+        <form class="main_form">
+          <div class="form_item">
+            <label
+              for="enableSaveComment"
+              id="saveCommentLabel"
+              class="form_label"
+              >__MSG_OPTION_SAVE_MESSAGES__</label
+            >
+            <div class="slide_checkbox">
+              <input
+                class="form_input"
+                id="enableSaveComment"
+                type="checkbox"
+              />
+              <div class="slider" id="sliderSaveComment"></div>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <script src="./popup.js"></script>
+  </body>
+</html>

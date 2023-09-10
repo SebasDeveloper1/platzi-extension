@@ -1,0 +1,50 @@
+{
+  "extensionTitle": {
+    "message": "PlatziPlus",
+    "description": ""
+  },
+  "extensionSubtitle": {
+    "message": "Extension",
+    "description": ""
+  },
+  "extensionDesc": {
+    "message": "Expand your possibilities on Platzi with the enhanced features that our extension brings to you.",
+    "description": ""
+  },
+  "optionSaveCommentLabel": {
+    "message": "Save comments",
+    "description": ""
+  },
+  "saveCommentButton": {
+    "message": "Save comment",
+    "description": ""
+  },
+  "notificationModalTitle": {
+    "message": "Comment Saved",
+    "description": ""
+  },
+  "notificationModalSub": {
+    "message": "/Bookmarks/PlatziComments/...",
+    "description": ""
+  },
+  "modalHeaderTitle": {
+    "message": "Save Comment",
+    "description": ""
+  },
+  "formInputTitle": {
+    "message": "Comment Title",
+    "description": ""
+  },
+  "formInputTitleError": {
+    "message": "The comment title cannot be empty",
+    "description": ""
+  },
+  "saveCommentModalButtonDiscard": {
+    "message": "Discard",
+    "description": ""
+  },
+  "saveCommentModalButtonSave": {
+    "message": "Save",
+    "description": ""
+  }
+}

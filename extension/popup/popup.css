@@ -1,0 +1,104 @@
+@import "../styles/global.css";
+
+body {
+  width: 25rem;
+  height: auto;
+  border-radius: 16px;
+  background-color: var(--primary-dark);
+}
+
+.header_container,
+.main_container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header_container {
+  padding: 16px 5%;
+  text-align: center;
+}
+
+.header_title {
+  font-size: large;
+  font-weight: 400;
+  color: var(--primary-green);
+}
+
+.header_subtitle {
+  font-size: small;
+  font-weight: 300;
+  color: var(--primary-light);
+}
+
+.main {
+  width: 100%;
+  min-height: 200px;
+  padding-block: 20px;
+  background: var(--secondary-dark);
+}
+
+.main_desc {
+  font-size: small;
+  font-weight: 500;
+  color: var(--secondary-gray);
+  text-align: center;
+}
+
+.main_form {
+  width: 100%;
+  margin: 24px 0;
+}
+
+.form_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form_item:hover {
+  background: var(--primary-dark);
+}
+
+.form_label {
+  width: 100%;
+  padding: 18px 0;
+  padding-left: 12px;
+  font-size: medium;
+  font-weight: 400;
+  color: var(--tertiary-light);
+  cursor: pointer;
+}
+
+.form_input {
+  display: none; /* Hide the default checkbox input */
+}
+
+.slide_checkbox {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin-right: 12px;
+  border-radius: 12px;
+  background-color: var(--primary-gray);
+  transition: background 0.3s ease;
+}
+
+.slide_checkbox .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: var(--secondary-gray);
+  transition: transform 0.3s ease;
+}
+
+.slide_checkbox input:checked + .slider {
+  background-color: var(--primary-green);
+  transform: translateX(20px);
+}

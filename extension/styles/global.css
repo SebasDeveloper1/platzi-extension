@@ -1,0 +1,23 @@
+:root {
+  --primary-dark: #2c323c;
+  --secondary-dark: #1c2028;
+  --primary-light: #ffffff;
+  --secondary-light: #eff3f8;
+  --tertiary-light: #eff3f8;
+  --primary-green: #0ae98a;
+  --secondary-green: rgba(10, 233, 138, 0.7);
+  --primary-gray: #59616f;
+  --secondary-gray: #87909d;
+  --primary-blue: #0791e6;
+  --primary-dark-blue: #24385b;
+  --secondary-dark-blue: #637a9d;
+  --primary-neon-blue: #74caff;
+  --background-modal: rgba(0, 0, 0, 0.7);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}

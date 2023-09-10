@@ -1,0 +1,16 @@
+@import "../styles/global.css";
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: #1c2028;
+}
+
+.header {
+  width: 100%;
+}
+
+.header_container {
+  width: 90%;
+  margin: 0 auto;
+}
